@@ -14,95 +14,7 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
   <!-- 1- Pls move the css styling to external stylesheet -->
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      ;
-    }
-
-    body {
-      background-color: hsl(30, 38%, 92%);
-    }
-
-    .main {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 600px;
-      height: 400px;
-
-      margin: 0 auto;
-
-    }
-
-    .holder-text {
-      background-color: white;
-      padding: 20px;
-      width: 300px;
-      height: 400px;
-      /* text-align: center; */
-      justify-content: center;
-      align-items: center;
-    }
-
-
-    .image img {
-      width: 300px;
-      height: 400px;
-      /* display: flex; */
-    }
-
-    button {
-      margin-bottom: 0;
-      width: 100%;
-      height: 35px;
-      background-color: hsl(158, 42%, 18%);
-      color: white;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-
-    .price {
-      display: flex;
-      justify-content: space-between;
-
-    }
-
-    h2 {
-      font-size: 37px;
-      font-family :Fraunces;
-    }
-
-    h3 {
-      color: rgb(91, 91, 91);
-      margin-right: 55px;
-      margin-top: 13px;
-    }
-    h6{
-      font-family:Montserrat;
-      font-size: 15px;
-      opacity: 0.6;
-    }
-    p{
-      opacity: 0.6;
-    }
-
-    @media screen and (max-width:600px) {
-      .main {
-        flex-direction: column;
-
-      }
-
-      button {
-        display: none;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -113,7 +25,7 @@
     </div>
     <div class="holder-text">
       <div class="text"></div>
-      <h6> P  E  R  F  U  M  E</h6>
+      <h6> P E R F U M E</h6>
       <br>
 
 
@@ -128,7 +40,7 @@
         <h3><s>$169.99</s></h3>
       </div>
 
-      <button>Add to Cart</button>
+      <button> <img src="images/icon-cart.svg" alt="sorry" id="cart-icon"> <h4>Add to Cart</h4></button>
     </div>
   </div>
 
